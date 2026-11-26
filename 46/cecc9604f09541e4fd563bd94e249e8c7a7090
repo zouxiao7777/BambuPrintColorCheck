@@ -1,0 +1,61 @@
+.gitignore
+  s_2dbc2b9d6eb6e2::t_6f28795459cbe4 1-4
+Docs/INSTALL-Chinese.txt
+  s_2dbc2b9d6eb6e2::t_a9969e2e55d40a 1-15
+Docs/INSTALL-English.txt
+  s_2dbc2b9d6eb6e2::t_504ba5a5b677ba 1-15
+LICENSE
+  s_2dbc2b9d6eb6e2::t_ff112270cde28b 1-21
+README.en.md
+  s_2dbc2b9d6eb6e2::t_7d3269cb0a2f8b 1-52
+README.md
+  s_2dbc2b9d6eb6e2::t_08bd657bc92916 1-52
+RELEASE_NOTES.md
+  s_2dbc2b9d6eb6e2::t_8a80a4f4e4f661 1-19
+Resources/en.lproj/InfoPlist.strings
+  s_2dbc2b9d6eb6e2::t_d9dde2a02f177f 1-3
+Resources/zh-Hans.lproj/InfoPlist.strings
+  s_2dbc2b9d6eb6e2::t_6d2615033790b1 1-3
+Scripts/make-icon.swift
+  s_2dbc2b9d6eb6e2::t_4206766099061d 1-38
+Scripts/package.sh
+  s_2dbc2b9d6eb6e2::t_9921d9eb638448 1-17
+Sources/Input.swift
+  s_2dbc2b9d6eb6e2::t_a2469a01db8d91 1-96
+Sources/Language.swift
+  s_2dbc2b9d6eb6e2::t_a119f02a87d6e8 1-29
+Sources/Mapping.swift
+  s_2dbc2b9d6eb6e2::t_a20c2fc2da646b 1-177
+Sources/main.swift
+  s_2dbc2b9d6eb6e2::t_d32aa0cae3406c 1-227
+Sources/paths.cpp
+  s_2dbc2b9d6eb6e2::t_71834a5b36cc7c 1-132
+Web/app.js
+  s_2dbc2b9d6eb6e2::t_93679096fdcfab 1-142
+Web/index.html
+  s_2dbc2b9d6eb6e2::t_0a7b437b712f75 1-72
+Web/language.js
+  s_2dbc2b9d6eb6e2::t_19f38518f193f8 1-103
+Web/style.css
+  s_2dbc2b9d6eb6e2::t_a36ed6f50727a2 1-22
+Web/viewer.js
+  s_2dbc2b9d6eb6e2::t_0bd1982a774041 1-127
+build.sh
+  s_2dbc2b9d6eb6e2::t_969cdde59158c1 1-31
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.7-2611251957.17",
+  "base_commit_sha": "46cecc9604f09541e4fd563bd94e249e8c7a7090",
+  "prompts": {},
+  "sessions": {
+    "s_2dbc2b9d6eb6e2": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a2136e-fc0b-7953-a576-615f001dee7d",
+        "model": "gpt-6.2-astra"
+      },
+      "human_author": "zouxiao7777 <zouxiao7777>"
+    }
+  }
+}
