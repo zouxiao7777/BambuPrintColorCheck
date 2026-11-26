@@ -1,0 +1,15 @@
+BambuPrintColorCheck · 安装与使用
+
+适用于 Apple 芯片 Mac，系统要求 macOS 14 或更新版本。
+
+1. 在 https://github.com/zouxiao7777/BambuPrintColorCheck/releases 选择 Mac 的 arm64 ZIP 安装包。
+2. 解压，把 BambuPrintColorCheck.app 拖入“应用程序”并打开。升级时先退出旧版助手。
+3. 在 Bambu Studio 里切片，点“打印单盘”，让发送窗口显示预计耗材重量和全部耗材卡。
+4. 在助手中选择对应的切片，点“读取 AMS”。首次读取时，macOS 可能要求屏幕录制权限。也可以用“导入窗口截图”读取这张盘的完整发送窗口。
+5. 在“项目配色”和“AMS 配色”之间切换。点模型查耗材和槽号，点色块突出它负责的区域。若有错配，请在 Studio 中调整，然后重新核对。
+6. 点“保存”导出 4K 图片。右上角可切换界面语言，点“关于”可查看版本、用法、下载及联系方式。
+
+本测试版使用本地签名，尚未完成 Apple Developer ID 签名和公证。若 macOS 拦截了下载的应用，可选择从公开源码自行构建。构建命令见仓库 README。
+
+作者与联系  https://github.com/zouxiao7777
+反馈问题    https://github.com/zouxiao7777/BambuPrintColorCheck/issues

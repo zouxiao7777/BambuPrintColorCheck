@@ -1,0 +1,3 @@
+"CFBundleName" = "打印配色核对";
+"CFBundleDisplayName" = "打印配色核对";
+"NSScreenCaptureUsageDescription" = "读取所选 Bambu Studio 发送窗口中可见的耗材卡，以生成配色核对图。";

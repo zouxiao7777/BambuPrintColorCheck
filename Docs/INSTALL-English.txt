@@ -1,0 +1,15 @@
+BambuPrintColorCheck · Installation and first use
+
+Requires an Apple silicon Mac running macOS 14 or later.
+
+1. Download the macOS arm64 ZIP from https://github.com/zouxiao7777/BambuPrintColorCheck/releases.
+2. Extract it, drag BambuPrintColorCheck.app to Applications, and open it. Quit an older copy of the helper before upgrading.
+3. In Bambu Studio, slice the plate and click Print Plate. Keep the estimated filament weight and all filament cards visible in the send window.
+4. Select that slice in the helper, then click Read AMS. macOS may request Screen Recording access the first time. Alternatively, click Import Screenshot and select a screenshot of the complete send window.
+5. Switch between Project Colors and AMS Colors. Click the model to identify a filament and slot, or click a swatch to highlight its region. Correct any mismatched slot in Studio, then read again.
+6. Click Save to export a 4K image. The language selector and About button are at the top right. About includes the version, instructions, downloads, and author contact.
+
+This beta is ad-hoc signed. It does not carry a Developer ID signature or Apple notarization. If macOS blocks the downloaded app, the README includes instructions for building it from source.
+
+Author and contact  https://github.com/zouxiao7777
+Issue tracker       https://github.com/zouxiao7777/BambuPrintColorCheck/issues

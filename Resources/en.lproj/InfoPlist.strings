@@ -1,0 +1,3 @@
+"CFBundleName" = "Print Color Check";
+"CFBundleDisplayName" = "Print Color Check";
+"NSScreenCaptureUsageDescription" = "Read the filament cards in the selected Bambu Studio print window to preview its AMS slot colors.";
