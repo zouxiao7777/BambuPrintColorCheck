@@ -138,5 +138,8 @@ function openAbout() {
   const dialog=by('aboutPage');
   if (!dialog.open) dialog.showModal();
 }
+function closeAbout() {
+  by('aboutPage').close();
+}
 by('aboutButton').onclick=openAbout;
 localizeControls();show();post('ready');

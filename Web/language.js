@@ -4,7 +4,7 @@ const messages = {
   versionInfo: ['版本 {version} · 构建 {build} · MIT 许可证', 'Version {version} · Build {build} · MIT License'],
   aboutIntro: ['发送打印前，按 AMS 槽位的显示颜色重绘模型。点一下模型，就能核对这个部位会用哪种耗材。', 'See the model in the colors shown for its assigned AMS slots. Click any visible part to check which filament will print it.'],
   howTo: ['打印前怎么核对', 'Check a plate before printing'],
-  stepSlice: ['在 Bambu Studio 中切片，点“打印单盘”，让发送窗口显示预计耗材重量和全部耗材卡。', 'Slice a plate in Bambu Studio and click Print Plate. Keep the estimated weight and all filament cards visible in the send window.'],
+  stepSlice: ['在 Bambu Studio 中切片，从“Bambu Studio → 服务 → 打印配色核对”打开助手。回到 Studio 点“打印单盘”，让预计耗材重量和全部耗材卡可见。', 'Slice a plate, then open Bambu Studio → Services → Print Color Check. Return to Studio and click Print Plate. Keep the estimated weight and all filament cards visible.'],
   stepMap: ['回到助手，选中对应切片，点“读取 AMS”。也可以导入完整的发送窗口截图。', 'In this app, select the matching slice and click Read AMS. You can also import a screenshot of the entire send window.'],
   stepInspect: ['切换“项目配色”和“AMS 配色”对照。点模型查槽号，点耗材色块突出对应区域，拖动旋转，滚动放大。', 'Compare Project Colors with AMS Colors. Click the model to identify a slot or a swatch to highlight its region. Drag to rotate and scroll to zoom.'],
   stepSave: ['发现错配时，回到 Studio 调整槽位，再读取核对。点“保存”可导出 4K 对照图。', 'If a color is wrong, change the slot in Studio and read it again. Click Save to export a 4K comparison.'],

@@ -93,7 +93,27 @@ final class App:NSObject,NSApplicationDelegate,WKScriptMessageHandler,NSWindowDe
             Task{@MainActor in self.capture(quiet:true)}
         }
         web.load(URLRequest(url:URL(string:"plate://local/index.html")!))
-        window.makeKeyAndOrderFront(nil);NSApp.activate(ignoringOtherApps:true)
+        presentWindow()
+        if exportURL == nil {
+            NSApp.servicesProvider = self
+            NSUpdateDynamicServices()
+        }
+    }
+    private func presentWindow() {
+        NSApp.unhide(nil)
+        if window.isMiniaturized { window.deminiaturize(nil) }
+        window.makeKeyAndOrderFront(nil)
+        NSApp.activate(ignoringOtherApps: true)
+    }
+    @objc(showPrintColorCheck:userData:error:)
+    func showPrintColorCheck(_ pasteboard: NSPasteboard, userData: String?,
+                             error: AutoreleasingUnsafeMutablePointer<NSString?>?) {
+        if ready { call("closeAbout", NSNull()) }
+        presentWindow()
+    }
+    func applicationShouldHandleReopen(_ sender: NSApplication, hasVisibleWindows flag: Bool) -> Bool {
+        if window != nil { presentWindow() }
+        return false
     }
     func windowWillClose(_ notification:Notification){NSApp.terminate(nil)}
     func applicationWillTerminate(_ n:Notification){try? fm.removeItem(at:root)}

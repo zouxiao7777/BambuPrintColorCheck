@@ -12,13 +12,23 @@ A standalone Mac companion for Bambu Studio. It reads the selected plate’s sli
 
 Suppose you painted a panda’s tongue pink, then assigned that filament to a slot holding black filament. The project preview still shows pink. Switch to AMS Colors and zoom in on the mouth to see the tongue rendered in the slot color. If several project filaments share one slot, click each swatch to highlight the region it controls.
 
+![English AMS Colors view showing the panda’s pink tongue and the assigned slot swatches](Docs/PrintColorCheck-English.png)
+
+<details><summary>View the Simplified Chinese screenshot</summary>
+
+![Chinese print preview with project filaments mapped to AMS slots](Docs/PrintColorCheck-Chinese.png)
+
+</details>
+
 ## Install and check a plate
 
-1. Download the macOS arm64 ZIP from Releases. Extract it and drag `BambuPrintColorCheck.app` to Applications. The app supports English and Simplified Chinese and remembers your selection.
-2. Slice a plate in Bambu Studio and click Print Plate. Keep the estimated weight and all filament cards visible in the send window. Select the matching project and slice in the helper.
+1. Download the macOS arm64 ZIP from Releases. Quit any older copy of the helper. Extract the ZIP, drag `BambuPrintColorCheck.app` to Applications, and open it once.
+2. Slice a plate and choose **Bambu Studio → Services → Print Color Check** from the macOS menu bar. The first click launches the helper. Later clicks bring the same preview window forward. Return to Studio and click Print Plate. Keep the estimated weight and all filament cards visible, then select the matching project and slice in the helper.
 3. Click **Read AMS**. With macOS Screen Recording access, the helper reads the selected Studio process’s print window and rechecks it about every four seconds while it is open. You can also import a screenshot of the entire window. Read or import again after changing a slot.
 4. Switch between **Project Colors** and **AMS Colors** with the same camera angle. Click the model to identify its filament and slot. Click a swatch to highlight the exterior it prints, then click the label at the top left to zoom there. Drag to rotate, scroll or pinch to zoom, and Shift-drag to pan.
 5. Correct a mismatch in Studio and verify it before sending. Save a 4K side-by-side comparison or an AMS-only image. Open **About** in the toolbar or the macOS application menu for instructions, version information, downloads, and contact details.
+
+The menu label follows the macOS Services language. You can change the helper’s language separately in its toolbar. If the command is missing, open **Bambu Studio → Services → Services Settings…** and enable **Print Color Check** under **General**.
 
 ![About page in English](Docs/About-English.png)
 

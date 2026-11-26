@@ -21,8 +21,16 @@ cat > "$app/Info.plist" <<'PLIST'
 <key>CFBundleIconFile</key><string>PrintColorCheck.icns</string>
 <key>CFBundleDevelopmentRegion</key><string>en</string>
 <key>CFBundleLocalizations</key><array><string>zh-Hans</string><string>en</string></array>
-<key>CFBundleVersion</key><string>3</string>
-<key>CFBundleShortVersionString</key><string>0.3.0</string>
+<key>CFBundleVersion</key><string>4</string>
+<key>CFBundleShortVersionString</key><string>0.4.0</string>
+<key>NSServices</key><array><dict>
+  <key>NSMenuItem</key><dict><key>default</key><string>Print Color Check</string></dict>
+  <key>NSMessage</key><string>showPrintColorCheck</string>
+  <key>NSPortName</key><string>PlatePreview</string>
+  <key>NSRequiredContext</key><dict>
+    <key>NSApplicationIdentifier</key><string>com.bambulab.bambu-studio</string>
+  </dict>
+</dict></array>
 <key>LSMinimumSystemVersion</key><string>14.0</string>
 <key>NSHighResolutionCapable</key><true/>
 <key>NSScreenCaptureUsageDescription</key><string>读取所选 Bambu Studio 发送窗口中可见的耗材卡，以生成配色核对图。</string>
