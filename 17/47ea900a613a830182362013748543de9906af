@@ -1,0 +1,27 @@
+Docs/INSTALL-Chinese.txt
+  s_2dbc2b9d6eb6e2::t_a6d53f87022e15 7,12-13
+Docs/INSTALL-English.txt
+  s_2dbc2b9d6eb6e2::t_5de13b502d99a1 7,12-13
+README.en.md
+  s_2dbc2b9d6eb6e2::t_c5ad633c1396bf 15-22,25-26,31-32
+README.md
+  s_2dbc2b9d6eb6e2::t_4903298b9880a4 15-22,25-26,31-32
+RELEASE_NOTES.md
+  s_2dbc2b9d6eb6e2::t_c0b535f0a2ea6a 3,5,7,11,13,15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.7-2611251957.17",
+  "base_commit_sha": "1747ea900a613a830182362013748543de9906af",
+  "prompts": {},
+  "sessions": {
+    "s_2dbc2b9d6eb6e2": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a2136e-fc0b-7953-a576-615f001dee7d",
+        "model": "gpt-6.2-astra"
+      },
+      "human_author": "zouxiao7777 <zouxiao7777>"
+    }
+  }
+}
